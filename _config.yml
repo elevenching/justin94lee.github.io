@@ -1,14 +1,17 @@
-# Site settings
-title: Machine
-email: justinleeig@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://locahost:4000" # the base hostname & protocol for your site
-twitter_username: justinleeig
-github_username:  justinleeig
+# Setup
+title:        Project or Site name
+tagline:      A responsive theme for your project on GitHub Pages
+baseurl:      ""
+paginate:     1
 
-# Build settings
+# About/contact
+author:
+  name:       Justin Lee
+  url:        http://justin94lee.GitHub.io
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
 markdown: kramdown
