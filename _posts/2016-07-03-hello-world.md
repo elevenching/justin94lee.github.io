@@ -7,6 +7,6 @@ project: false
 tag:
 - jekyll
 - blog
-comments: false
+comments: ture
 ---
 # hello world !
