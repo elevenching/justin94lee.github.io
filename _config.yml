@@ -1,14 +1,14 @@
 # Site
 title:
 bio:                'Live Alone and Prosper'
-description:        "Just set up my new blog"
-reading_time:       true
+description:        "Justin Lee"
+reading_time:       false
 words_per_minute:   200
 logo:               'assets/img/LOGO.png'
 background:         'assets/img/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             zh_CN
-url:                http://justin94lee.github.io
+url:
 
 # Jekyll
 permalink:          /:title/
@@ -27,21 +27,21 @@ sass:
 
 # Comments
 disqus_shortname:   J.Lee
-# page botton
-{% if page.previous %}
-  {% comment %} url:    page.previous.url {% endcomment %}
-  {% comment %} title:  page.previous.title | truncatewords:5 {% endcomment %}
-{% endif %}
-{% if page.next %}
-  {% comment %} url:    page.next.url {% endcomment %}
-  {% comment %} title:  page.next.url | truncatewords:5 {% endcomment %}
-{% endif %}
-
-# paginator
-{% for post in paginator.posts %}
-  {% comment %} 输出当前分页的所有文章 {% endcomment %}
-  {{ post.content }}
-{% endfor %}
+# # page botton
+# {% if page.previous %}
+#   {% comment %} url:    page.previous.url {% endcomment %}
+#   {% comment %} title:  page.previous.title | truncatewords:5 {% endcomment %}
+# {% endif %}
+# {% if page.next %}
+#   {% comment %} url:    page.next.url {% endcomment %}
+#   {% comment %} title:  page.next.url | truncatewords:5 {% endcomment %}
+# {% endif %}
+#
+# # paginator
+# {% for post in paginator.posts %}
+#   {% comment %} 输出当前分页的所有文章 {% endcomment %}
+#   {{ post.content }}
+# {% endfor %}
 
 # Social
 # if you don't have any of social below, comment the line.
