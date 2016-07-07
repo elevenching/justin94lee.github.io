@@ -7,7 +7,7 @@ project: false
 tag:
 - jekyll
 - blog
-comments: ture
+comments: false
 ---
 # hello world
 :new_moon_with_face:

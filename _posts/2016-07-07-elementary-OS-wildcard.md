@@ -1,4 +1,16 @@
-# elementary OS 的安装优化和问题汇集
+--
+layout: post
+title:  "elementary OS 的安装优化和问题汇集"
+date:   2016-07-05
+excerpt: "my blog."
+project: false
+tag:
+- elementary
+- 教程
+- crouton
+- chromebook
+
+comments: false
 
 # 安装步骤
 ## 预备工作
