@@ -1,4 +1,4 @@
---
+---
 layout: post
 title:  "elementary OS 的安装优化和问题汇集"
 date:   2016-07-05
@@ -11,6 +11,7 @@ tag:
 - chromebook
 
 comments: false
+---
 
 # 安装步骤
 ## 预备工作
