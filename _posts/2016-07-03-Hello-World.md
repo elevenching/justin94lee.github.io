@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "New to Github"
-date:   2016-07-05
+title:  "Hello World"
+date:   2016-07-03
 excerpt: "my blog."
 project: false
 tag:
