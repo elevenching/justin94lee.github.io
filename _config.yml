@@ -11,7 +11,7 @@ locale:             zh_CN
 url:
 
 # Jekyll
-permalink:          /:title/
+permalink:          /:title.html/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
