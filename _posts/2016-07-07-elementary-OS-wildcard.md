@@ -2,7 +2,7 @@
 layout: post
 title:  "elementary OS 的安装优化和问题汇集"
 date:   2016-07-05
-excerpt: "my blog."
+excerpt: "在chromebook 上安装elementary OS 遇到的一些问题和解决方法"
 project: false
 tag:
 - elementary

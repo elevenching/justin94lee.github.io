@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World"
 date:   2016-07-03
-excerpt: "my blog."
+excerpt: "Hello form other side"
 project: false
 tag:
 - jekyll
