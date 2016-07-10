@@ -81,6 +81,7 @@ crouton 代理的修改
 >sudo apt-get install clementine
 
 * 启用所有的软件仓库（sudo software-properties-gtk）
+
 >sudo software-properties-gtk
 
 * 解决网易云音乐客户端无法播放的问题
@@ -91,6 +92,7 @@ crouton 代理的修改
 
 
 * 在启动项管理显示系统启动项
+
 >sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
 
 * 安装dconf-editor
@@ -149,6 +151,7 @@ crouton 代理的修改
 *方法一*
 
 直接使用命令行开启
+
 >sslocal -s 服务器ip -p 服务器端口 -k 密码
 
 [参考链接](http://bblove.me/2015/03/09/use-ss/)
@@ -159,6 +162,7 @@ crouton 代理的修改
 1. 创建配置文件
 
 在 / etc / 位置下创建配置文件
+
 sudo vi /etc/shadowsocks.json
 
 
@@ -186,6 +190,7 @@ sudo vi /etc/shadowsocks.json
 	>gnome-session-properties
 
 * 编辑 *终端* 启动项，把下面的命令行放入 *终端* 的 命令 里面
+
 	>sslocal -c /etc/shadowsocks.json
 
 * 保存

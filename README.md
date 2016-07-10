@@ -1,5 +1,5 @@
-# My live blog
+# My Github Pages
 
-## Powered by Moon Jekyll Theme
+## Based on Jekyll Theme [Moon](https://github.com/TaylanTatli/Moon)
 
-Proudly Edit by Chromebook 
+Proudly Edit by Chromebook

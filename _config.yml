@@ -8,7 +8,11 @@ logo:               'assets/img/LOGO.png'
 background:         'assets/img/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             zh_CN
-url:               
+url:
+# 分页
+future:             true
+gems:               [jekyll-paginate, jekyll-paginate-category]]
+paginate:           10
 
 # Jekyll
 permalink:          /:title.html/
