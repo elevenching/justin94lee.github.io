@@ -1,18 +1,14 @@
 # Site
-title:              "Machine"
-bio:                'Live Alone and Prosper'
-description:        "Justin Lee"
+title:              Machine
+bio:                "一个全新的博客"
+description:        "Live Alone and Prosper"
 reading_time:       false
 words_per_minute:   200
-logo:               'assets/img/ogo.png'
+logo:               'assets/img/logo.png'
 background:         'assets/img/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             zh_CN
+locale:             en_US
 url:                http://localhost:4000
-# 分页
-future:             true
-gems:               [jekyll-paginate, jekyll-paginate-category]]
-paginate:           10
 
 # Jekyll
 permalink:          /:month-:day-:year/:title.html
@@ -31,21 +27,6 @@ sass:
 
 # Comments
 disqus_shortname:   Justin
-# # page botton
-# {% if page.previous %}
-#   {% comment %} url:    page.previous.url {% endcomment %}
-#   {% comment %} title:  page.previous.title | truncatewords:5 {% endcomment %}
-# {% endif %}
-# {% if page.next %}
-#   {% comment %} url:    page.next.url {% endcomment %}
-#   {% comment %} title:  page.next.url | truncatewords:5 {% endcomment %}
-# {% endif %}
-#
-# # paginator
-# {% for post in paginator.posts %}
-#   {% comment %} 输出当前分页的所有文章 {% endcomment %}
-#   {{ post.content }}
-# {% endfor %}
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -56,6 +37,7 @@ disqus_shortname:   Justin
   #ad-client:
   #ad-slot:
 #bing-verify:
+
 #email:
 twitter:            justinleeig
 #facebook:           username
@@ -85,8 +67,6 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
-  - jemoji                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           - jemoji
-  - jekyll-paginate
 
 jekyll-mentions:
     base_url: https://github.com

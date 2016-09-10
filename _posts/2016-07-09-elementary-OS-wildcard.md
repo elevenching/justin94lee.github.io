@@ -1,24 +1,20 @@
 ---
 layout: post
-title:  "elementary OS 的安装优化和问题汇集"
-date:   2016-07-05
-excerpt: "在chromebook 上安装elementary OS 遇到的一些问题和解决方法"
-project: false
+title: "elementary OS 的安装优化和问题汇集"
+date: 2016-07-05
+excerpt: "在chromebook 上安装elementary OS 遇到的一些问题和解决方法。最后更新于2016-09-10"
 feature: https://raw.githubusercontent.com/elementary/brand/master/851x315_blue.png
-tag:
-- elementary
-- 教程
-- crouton
-- chromebook
-
-comments: false
+tags: [elementary, 教程, crouton, chromebook]
+comments: true
 ---
 
 # 安装步骤
+
 ## 预备工作
 crouton 代理的修改
 
 ## chroot 内的修改
+
 修改好后，此时不建议进入桌面环境，否则在chroot 外进入会出错
 
 
@@ -26,6 +22,7 @@ crouton 代理的修改
 >sudo apt-get install language-selector-gnome
 
 # 安装过程的问题
+
 ## 在chroot 里面使用sudo 命令运行会使得在chroot 外不能进入chroot 桌面
 >sudo enter-chroot
 
@@ -44,10 +41,7 @@ crouton 代理的修改
 
 [参考链接](http://askubuntu.com/questions/287116/gmate-installation-issue)
 
-** 最好去软件中心勾选需要的地址
-
-
-
+**最好去软件中心勾选需要的地址**
 # 美化及软件包
 
 * Spotify
