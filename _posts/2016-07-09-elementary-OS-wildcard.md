@@ -4,6 +4,7 @@ title:  "elementary OS 的安装优化和问题汇集"
 date:   2016-07-05
 excerpt: "在chromebook 上安装elementary OS 遇到的一些问题和解决方法"
 project: false
+feature: https://raw.githubusercontent.com/elementary/brand/master/851x315_blue.png
 tag:
 - elementary
 - 教程

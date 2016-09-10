@@ -4,18 +4,18 @@ bio:                'Live Alone and Prosper'
 description:        "Justin Lee"
 reading_time:       false
 words_per_minute:   200
-logo:               'assets/img/LOGO.png'
+logo:               'assets/img/ogo.png'
 background:         'assets/img/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             zh_CN
-url:
+url:                http://localhost:4000
 # 分页
 future:             true
 gems:               [jekyll-paginate, jekyll-paginate-category]]
 paginate:           10
 
 # Jekyll
-permalink:          /:title.html/
+permalink:          /:month-:day-:year/:title.html
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
@@ -30,7 +30,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   J.Lee
+disqus_shortname:   Justin
 # # page botton
 # {% if page.previous %}
 #   {% comment %} url:    page.previous.url {% endcomment %}
@@ -85,7 +85,7 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
-  - jemoji
+  - jemoji                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           - jemoji
   - jekyll-paginate
 
 jekyll-mentions:
