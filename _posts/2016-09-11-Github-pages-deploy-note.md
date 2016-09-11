@@ -45,3 +45,11 @@ comments: true
     只有文章是project 时才需要加上这个
 
 3. feature: 后面可以添加文章封面图
+
+## disqus 评论功能
+
+1. 去disqus 注册并配置账号
+
+2. 复制代码到 /_layouts/post.html 底部
+
+3. 在 _config.yml 填写shortname
