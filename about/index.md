@@ -1,17 +1,19 @@
 ---
 layout: page
 title: About
-tags: [about, Jekyll, theme, ]
+tags: [about]
 date: 2016-07-03
+feature: assets/img/post/aboutme.jpg
 comments: false
 ---
 
-
 ## Me
 
-Just set my new blog
+Bachelor of Economics
 
-everything to be continue
+Learning Python
+
+Live Alone And Prosper
 
 ## Theme
 
