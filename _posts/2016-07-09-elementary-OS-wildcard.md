@@ -234,3 +234,6 @@ sudo vi /etc/shadowsocks.json
 # 其他参考教程
 	https://docs.google.com/document/d/1ZURJITX-eCrhwP1cImwYHMthBXXHJwLrovIfiZh_vwQ/edit?pref=2&pli=1
 	http://jeanlouisnguyen.blogspot.com/2014/01/guide-how-to-install-elementary-os-on.html
+
+----------
+题图：<https://github.com/elementary/brand>

@@ -173,5 +173,5 @@ vundle
     " Open a NERDTree
     nmap <F4> :NERDTreeToggle<cr>
     
--------------------------------------
+----------
 题图：<https://en.wikipedia.org/wiki/Vim_(text_editor)>
