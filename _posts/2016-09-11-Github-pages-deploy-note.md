@@ -61,13 +61,11 @@ comments: true
 
 1. 标签是tags
 
-2. 不是project,不要写project。
+2. 文章不想放在project,不要加上以下内容。
 
         project: true
-
-    只有文章是project 时才需要加上这个
 
 3. feature: 后面可以添加文章封面图
 
 ----------
-题图：<https://www.wikiwand.com/en/Jekyll_(software)>
+题图：<https://en.wikipedia.org/wiki/Jekyll_(software)>
