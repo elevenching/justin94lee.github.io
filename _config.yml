@@ -12,7 +12,7 @@ locale:             en_US
 url:                https://justin94lee.github.io
 
 # Jekyll
-permalink:          /:month-:day-:year/:title.html
+permalink:          /:year-:month-:day/:title.html
 markdown:           kramdown
 highlighter:        rouge
 kramdown:

@@ -131,6 +131,7 @@ vundle
     Plugin 'scrooloose/nerdcommenter'
     Plugin 'pbrisbin/vim-mkdir'
     Plugin 'danro/rename.vim'
+    Bundle 'Raimondi/delimitMate'
 
 然后在普通模式下输入：
     
@@ -146,6 +147,8 @@ vundle
 
 也可上[vimawesome](http://vimawesome.com)搜索相关插件
 
+以下是一些需要在 .vimrc 里面添加的一些代码及说明
+
 **Plugin 'suan/vim-instant-markdown'**
 
 在 .vimrc 里添加以下内容，使得插件支持以markdown 结尾的文件
@@ -158,7 +161,7 @@ vundle
 
 **Plugin 'scrooloose/nerdtree'**
 
-添加以下内容调整文件结构图的位置、大小、忽略的文件类型、快捷键等
+在 .vimrc 里添加以下内容，调整文件结构图的位置、大小、忽略的文件类型、快捷键等
 
     let NERDChristmasTree=0
     let NERDTreeWinSize= 20
@@ -172,6 +175,19 @@ vundle
     autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
     " Open a NERDTree
     nmap <F4> :NERDTreeToggle<cr>
+
+**Bundle 'Raimondi/delimitMate'**
+
+在 .vimrc 里添加以下内容
+
+    " 自动补全单引号，双引号等
+    Bundle 'Raimondi/delimitMate'
+    " for python docstring ", 特别有用
+    au FileType python let b:delimitMate_nesting_quotes = ['"']
+    " 关闭某些类型文件的自动补全
+    "au FileType mail let b:delimitMate_autoclose = 0
+
+[参考链接](http://www.wklken.me/posts/2015/06/07/vim-plugin-delimitmate.html)
     
 ----------
 题图：<https://en.wikipedia.org/wiki/Vim_(text_editor)>
