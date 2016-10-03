@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "elementary OS 的安装优化和问题解决"
+title: "Chromebook 安装elementary OS 的优化和一些问题解决"
 date: 2016-07-05
-excerpt: "在chromebook 上安装elementary OS 遇到的一些问题和解决方法。最后更新于2016-09-10"
+excerpt: "在chromebook 上安装elementary OS 遇到的一些问题和解决方法。"
 feature: https://raw.githubusercontent.com/elementary/brand/master/851x315_blue.png
 tags: [elementary, 教程, crouton, chromebook]
 comments: true
@@ -64,6 +64,62 @@ comments: true
 如果是安装elementary OS 或其他桌面环境，可参照参照此文的方法完成剩余步骤。
 
 * http://blog.chromebook.space/archives/29/
+
+## 安装到可移动设备
+
+Chromebook 的内部储存空间有限，安装Ubuntu
+后会占较大一部分空间，在使用一段时间后容易导致系统可用空间不够。
+
+在不能手动给Chromebook 升级内部储存的情况下，安装在可移动设备是个较好的替代选择。
+
+可通过直接安装和从备份恢复来完成安装到可移动设备的步骤
+
+### 直接安装
+
+基本步骤：
+    
+1.格式化可移动设备为ext4格式 
+
+2.剩余步骤于直接安装无太多差异
+    
+但需要在下载系统的命令后面加上以下命令，指定安装位置到可移动设备。
+
+    -p /media/removable/USB/
+
+USB 为可移动磁盘的卷标
+
+### 从备份恢复到可移动设备
+
+基本步骤：
+    
+1.备份系统
+
+2.格式化可移动设备为ext4格式 
+
+3.恢复备份包到可移动设备
+
+### 启动命令
+
+    sudo sh /media/removable/USB/bin/startunity
+
+USB 为可移动磁盘的卷标，startunity 可替换为 /media/removable/USB/bin/
+下的对应文件
+
+### 安装在SD 卡的系统休眠问题
+
+Chromebook 在合上盖子后会卸载SD 卡（USB 设备不会)，这样每次都需要重启Chromebook
+才能进入。
+
+解决办法是让系统不休眠，缺点是盖上盖子后还是会耗电，极大的降低了续航能力，因此还是建议安装到USB
+设备或使用读卡器。
+
+电源管理修改方法参考
+
+* https://github.com/dnschneid/crouton/wiki/Power-manager-overrides
+
+待机和恢复问题
+
+* https://github.com/dnschneid/crouton/issues/288
 
 # 安装过程的问题
 
@@ -237,9 +293,16 @@ comments: true
 
 # crouton 基本命令
 
+**chrootname 为安装的版本**
+
 删除已安装的系统
 
     sudo delete-chroot chrootname
+
+删除可移动设备上的系统
+
+    sudo /media/removable/USB/bin/delete-chroot -y trusty
+    # USB 为可移动设备名称
 
 升级crouton
 
@@ -251,15 +314,21 @@ comments: true
 
 备份到U 盘
 
-    sudo sh edit-chroot -bf /media/removable/*/ chrootname
+    sudo sh edit-chroot -bf /media/removable/USB/ chrootname
 
 从U 盘恢复备份
 
-    sudo sh edit-chroot -rf /media/removable/*/ chrootname
+    sudo sh edit-chroot -rf /media/removable/USB/ chrootname
+
+**从可移动设备备份/恢复到另一个可移动设备**
+
+从SD卡备份到U盘
+
+    sudo sh /media/removable/SD Card/bin/edit-chroot -y -f /media/removable/USB/ -b chrootname
 
 从U盘恢复到SD 卡
 
-    sudo sh -e ~/Downloads/crouton.proxy -f /media/removable/Udisk/*.tar.gz -p '/media/removable/SD Card'/
+    sudo sh -e ~/Downloads/crouton -f /media/removable/USB/*.tar.gz -p '/media/removable/SD Card'/
 
 # 参考资料 
 
@@ -277,6 +346,7 @@ comments: true
 # 其他参考教程
 * https://docs.google.com/document/d/1ZURJITX-eCrhwP1cImwYHMthBXXHJwLrovIfiZh_vwQ/edit?pref=2&pli=1
 * http://jeanlouisnguyen.blogspot.com/2014/01/guide-how-to-install-elementary-os-on.html
+* https://docs.google.com/document/d/1kfLBq61dzNcQcSRer_mas94qLG4kHEHlK3E6xlXBXcU
  
 ----------
  题图：<https://github.com/elementary/brand>
