@@ -193,7 +193,13 @@ vundle
     " 关闭某些类型文件的自动补全
     "au FileType mail let b:delimitMate_autoclose = 0
 
+**Nerdtree 和Powerline**
+
+在 .vimrc 里添加以下内容，防止隐藏Nerdtree 的时候无法显示Powerline
+
+    set laststatus=2
+
 [参考链接](http://www.wklken.me/posts/2015/06/07/vim-plugin-delimitmate.html)
-    
+
 ----------
 题图：<https://en.wikipedia.org/wiki/Vim_(text_editor)>
