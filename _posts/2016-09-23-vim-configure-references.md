@@ -64,8 +64,15 @@ comments: true
 设置字体，如果是GVIM 建议去 .gvimrc 添加以下内容
 
     :set guifont=mononoki:14
+    "mononoki 代表设置的字体，14 代表字体大小。 
 
-其中mononoki 代表设置的字体，14 代表字体大小。 
+Ctrl-S保存快捷键
+
+    :nnoremap <C-s> :update<CR>
+
+解决Ctrl-v 被占用后，无法使用Ctrl-q 进入可视模式-块选择
+
+    silent !stty -ixon > /dev/null 2>/dev/null
 
 # vim 插件
 
@@ -131,7 +138,6 @@ vundle
     Plugin 'scrooloose/nerdcommenter'
     Plugin 'pbrisbin/vim-mkdir'
     Plugin 'danro/rename.vim'
-    Bundle 'Raimondi/delimitMate'
 
 然后在普通模式下输入：
     
@@ -187,7 +193,13 @@ vundle
     " 关闭某些类型文件的自动补全
     "au FileType mail let b:delimitMate_autoclose = 0
 
+**Nerdtree 和Powerline**
+
+在 .vimrc 里添加以下内容，防止隐藏Nerdtree 的时候无法显示Powerline
+
+    set laststatus=2
+
 [参考链接](http://www.wklken.me/posts/2015/06/07/vim-plugin-delimitmate.html)
-    
+
 ----------
 题图：<https://en.wikipedia.org/wiki/Vim_(text_editor)>
