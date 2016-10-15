@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Made by Google 发布会 之Pixel Phone"
+title: "Made by Google 发布会之Pixel Phone"
 date: 2016-10-06
 excerpt: "Google 的大事，大快人心的事"
 tags: [Google,发布会,Android]
