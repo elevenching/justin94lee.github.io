@@ -13,6 +13,7 @@ comments: true
 这次发布会不长，发布的东西与之前网上泄露的一致，这次发布的硬件有Pixel 手机、Google WiFi、Google Home、Daydream View、ChromeCast 4K
 
 ![封面][cover]
+
 ## Pixel 手机
 
 Pixel 手机的出现代表着Nexus 项目的正式终结，Google 也表示不会再更新Nexus 硬件设备。Pixel 作为Nexus 的继承者自然是“Made by Google”的重头戏。
@@ -102,9 +103,9 @@ Pixel 是一部好的旗舰手机，作为一个Nexus 6P 用户，我并没有�
 
 题图及文中图片来自[Google Store](store.google.com)、[The Verge](TheVerge.com)
 
-[suprise]:[http://www.theverge.com/2016/10/5/13171712/pixel-phone-by-google-specs-design-reaction]
-[ps]:[http://www.theverge.com/2016/10/7/13207382/google-pixel-xl-camera-photography-samples]
-[dxomark]:[https://www.dxomark.com/Mobiles/Pixel-smartphone-camera-review-At-the-top]
+[suprise]: http://www.theverge.com/2016/10/5/13171712/pixel-phone-by-google-specs-design-reaction
+[ps]: http://www.theverge.com/2016/10/7/13207382/google-pixel-xl-camera-photography-samples
+[dxomark]: https://www.dxomark.com/Mobiles/Pixel-smartphone-camera-review-At-the-top
 [p5]: /assets/img/2016-10-11/p5.jpg
 [p4]: /assets/img/2016-10-11/p4.jpg
 [p3]: /assets/img/2016-10-11/p3.jpg
