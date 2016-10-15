@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Made by Google 发布会"
+title: "Made by Google 发布会 之Pixel Phone"
 date: 2016-10-06
 excerpt: "Google 的大事，大快人心的事"
 tags: [Google,发布会,Android]
@@ -14,7 +14,7 @@ comments: true
 
 ![封面][cover]
 
-## Pixel 手机
+##Pixel 手机
 
 Pixel 手机的出现代表着Nexus 项目的正式终结，Google 也表示不会再更新Nexus 硬件设备。Pixel 作为Nexus 的继承者自然是“Made by Google”的重头戏。
 
@@ -28,10 +28,9 @@ Pixel 的后背看起来像是金属背板上覆盖了一块玻璃纤维或者�
 
 ## 软件
 
-这里的软件并不是指Android 系统，而是指Google Assistant
+这里的软件并不是指Android 系统，而是指Google Assistant。
 
-虽然这明显是一场硬件产品的发布会，但是发布会伊始由Google CEO 上台介绍了Google
-在人工智能的发展历史和AI-First 这一战略的转变，并正式发布了Google Assistant。Google Assistant 是比Google Now 更先进、更智能的AI 系统，给用户提供最好的智能语音助理服务。实际上我们在不久前发布的Allo 就体验过Google Assistant的玩法了，无奈环境原因，没有相关功能的对接，在国内能体会到的毕竟比较虚，但通过语音命令也能感受到这种智能的强大之处，就看个人的脑洞有多大了。
+虽然这明显是一场硬件产品的发布会，但是发布会伊始由Google CEO 上台介绍了Google 在人工智能的发展历史和AI-First 这一战略的转变，并正式发布了Google Assistant。Google Assistant 是比Google Now 更先进、更智能的AI 系统，给用户提供最好的智能语音助理服务。实际上我们在不久前发布的Allo 就体验过Google Assistant的玩法了，无奈环境原因，没有相关功能的对接，在国内能体会到的毕竟比较虚，但通过语音命令也能感受到这种智能的强大之处，就看个人的脑洞有多大了。
 
 ## 硬件
 
@@ -101,7 +100,7 @@ Pixel 是一部好的旗舰手机，作为一个Nexus 6P 用户，我并没有�
 
 ----------
 
-题图及文中图片来自[Google Store](store.google.com)、[The Verge](TheVerge.com)
+题图及文中图片来自[Google Store](http://store.google.com)、[The Verge](http://TheVerge.com)
 
 [suprise]: http://www.theverge.com/2016/10/5/13171712/pixel-phone-by-google-specs-design-reaction
 [ps]: http://www.theverge.com/2016/10/7/13207382/google-pixel-xl-camera-photography-samples
