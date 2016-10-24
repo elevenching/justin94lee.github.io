@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Allo App 简单评测"
-date: 2016-10-22
+date: 2016-10-24
 excerpt: "Say Hello to Allo"
-tags: [blog]
+tags: [Google,App,评测]
 feature: /assets/img/post/title.png
 comments: true
 ---
