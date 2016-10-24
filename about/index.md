@@ -3,7 +3,7 @@ layout: page
 title: About
 tags: [about]
 date: 2016-07-03
-feature: assets/img/post/aboutme.jpg
+feature: http://ofjynnbi3.bkt.clouddn.com/aboutme.jpg 
 comments: false
 ---
 

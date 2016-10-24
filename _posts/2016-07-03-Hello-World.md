@@ -4,7 +4,7 @@ title: "Hello World"
 date: 2016-07-03
 excerpt: "Hello, again. Just rebuild my github pages."
 tags: [blog]
-feature: assets/img/post/Hello.jpg
+feature: http://ofjynnbi3.bkt.clouddn.com/Hello.jpg
 comments: true
 ---
 

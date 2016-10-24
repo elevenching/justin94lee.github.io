@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Made by Google 发布会之Pixel Phone"
-date: 2016-10-06
+date: 2016-10-11
 excerpt: "Google 的大事，大快人心的事"
 tags: [Google,发布会,Android]
-feature: /assets/img/2016-10-11/cover.jpg
+feature: http://ofjynnbi3.bkt.clouddn.com/2016-10-11/cover.jpg
 comments: true
 ---
 
@@ -44,7 +44,7 @@ Pixel 有3种颜色分别是Quite Black、Really Blue、Very Sliver
 
 ![颜色][p3]
 
-我的在看直播时候，顺手翻译了下。
+我在看直播时候，顺手翻译了下。
 
 <blockquote class="twitter-tweet" data-lang="zh-cn"><p lang="zh"
 dir="ltr">Pixel 有三种颜色：有点黑、十分银、和限量版真的蓝。</p>&mdash; Justin
@@ -105,9 +105,9 @@ Pixel 是一部好的旗舰手机，作为一个Nexus 6P 用户，我并没有�
 [suprise]: http://www.theverge.com/2016/10/5/13171712/pixel-phone-by-google-specs-design-reaction
 [ps]: http://www.theverge.com/2016/10/7/13207382/google-pixel-xl-camera-photography-samples
 [dxomark]: https://www.dxomark.com/Mobiles/Pixel-smartphone-camera-review-At-the-top
-[p5]: /assets/img/2016-10-11/p5.jpg
-[p4]: /assets/img/2016-10-11/p4.jpg
-[p3]: /assets/img/2016-10-11/p3.jpg
-[p2]: /assets/img/2016-10-11/p2.png
-[p1]: /assets/img/2016-10-11/p1.jpg
-[cover]: /assets/img/2016-10-11/lp.jpg
+[p5]: http://ofjynnbi3.bkt.clouddn.com/2016-10-11/p5.jpg
+[p4]: http://ofjynnbi3.bkt.clouddn.com/2016-10-11/p4.jpg
+[p3]: http://ofjynnbi3.bkt.clouddn.com/2016-10-11/p3.jpg
+[p2]: http://ofjynnbi3.bkt.clouddn.com/2016-10-11/p2.png
+[p1]: http://ofjynnbi3.bkt.clouddn.com/2016-10-11/p1.jpg
+[cover]: http://ofjynnbi3.bkt.clouddn.com/2016-10-11/lp.jpg

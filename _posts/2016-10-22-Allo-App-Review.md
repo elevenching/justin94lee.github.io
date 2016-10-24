@@ -4,7 +4,7 @@ title: "Allo App 简单评测"
 date: 2016-10-24
 excerpt: "Say Hello to Allo"
 tags: [Google,App,评测]
-feature: /assets/img/post/title.png
+feature: http://ofjynnbi3.bkt.clouddn.com/2016-10-24/title.png
 comments: true
 ---
 
@@ -48,7 +48,7 @@ Allo 采用了深度学习AI 系统，用于分析用户目前的位置、事物
 
 目前国外的几个互联网大公司也在准备AI智能助理，Google 率先把自己的技术市场化，提供了一个机会窥探了一下Google Assistant 强大功能，也有其战略目的。
 
-![Happy](/assets/img/post/expression.gif)
+![Happy](http://ofjynnbi3.bkt.clouddn.com/2016-10-24/expression.gif)
 
 ----------
 题图和文末gif 动图来自[Allo 官网](http://allo.google.com)

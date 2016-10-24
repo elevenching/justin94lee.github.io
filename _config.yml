@@ -1,15 +1,15 @@
 # Site
 title:              Machine
-bio:                "一个全新的博客"
-description:        "Live Alone and Prosper"
+bio:                "Live Alone and Prosper"
+description:        "Justin Lee"
 reading_time:       false
 words_per_minute:   200
 logo:               'assets/img/logo.png'
-background:         'assets/img/background.jpg'
+background:         'http://ofjynnbi3.bkt.clouddn.com/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-#url:                http://localhost:4000
-url:                https://justin94lee.github.io
+url:                http://localhost:4000
+#url:                https://justin94lee.github.io
 
 # Jekyll
 permalink:          /:year-:month-:day/:title.html
