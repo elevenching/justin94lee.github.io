@@ -201,5 +201,15 @@ vundle
 
 [参考链接](http://www.wklken.me/posts/2015/06/07/vim-plugin-delimitmate.html)
 
+**py-mode 下编辑python 文件保存过慢的问题**
+
+应该和python mode 的 repo 有关
+
+    " close python mode Regenerate repo cache
+    let g:pymode_rope = 0
+    let g:pymode_rope_lookup_project = 0
+
+[参考链接](http://blog.ibeats.top/2016/04/23/python-pymode-complate-slow/)
+
 ----------
 题图：<https://en.wikipedia.org/wiki/Vim_(text_editor)>
