@@ -105,5 +105,5 @@ Ingress 基于地理实际定位的模式，让玩家不再是只存在一个虚
 
 [boom]:http://ofjynnbi3.bkt.clouddn.com/2016-11-20/boom.png
 [dh]:http://ofjynnbi3.bkt.clouddn.com/2016-11-20/dh.jpg 
-[wh4]:http://ofjynnbi3.bkt.clouddn.com/2016-11-20/wh4.png
+[wh4]:http://ofjynnbi3.bkt.clouddn.com/2016-11-20/wh.png
 [hj]:http://ofjynnbi3.bkt.clouddn.com/2016-11-20/hj.jpg
