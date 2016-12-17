@@ -4,7 +4,7 @@ title: "我所用过的一些Chrome 扩展"
 date: 2016-12-17
 excerpt: "Chrome 还能更好用一点"
 tags: [Chrome, Extension]
-feature: 
+feature: https://lh3.googleusercontent.com/nYhPnY2I-e9rpqnid9u9aAODz4C04OycEGxqHG5vxFnA35OGmLMrrUmhM9eaHKJ7liB-=w300
 comments: true
 ---
 
@@ -100,7 +100,7 @@ Wikiwand 是一个优化Wikipedia 网站的扩展，Wikipedia 万年不变的风
 
 >支持谷歌、百度、有道、必应四大翻译和朗读引擎，可以方便的查看、复制和朗读不同引擎的翻译结果。
 
-如上，还显示了音标。Chrome 上最好的划词翻译扩展。
+如上，此扩展的特点是能够选择多个翻译源，还能显示音标。
 
 ### [右键搜][l20]
 
