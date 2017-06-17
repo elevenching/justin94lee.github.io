@@ -65,6 +65,9 @@ comments: true
 
 * http://blog.chromebook.space/archives/29/
 
+*遗憾的是，上面的链接失效了，但我在Evernote里面保留了页面的[快照](https://www.evernote.com/shard/s192/sh/ecd54b0b-5155-4ca1-974f-5216e2c3cf8c/76320168666077555d8bfa1b9375a02c)*
+
+
 ## 安装到可移动设备
 
 Chromebook 的内部储存空间有限，安装Ubuntu

@@ -98,7 +98,7 @@ comments: true
 
 上传命令很简单，就是qshell + 配置文件，示例：
 
-    qshell qupload ~/Downloads/qshll.json
+    qshell qupload ~/Downloads/qshell.json
 
 更多高级命令参见[命令][ref3] 参数详解
 
