@@ -5,7 +5,7 @@ description:        "Justin Li"
 reading_time:       false
 words_per_minute:   200
 logo:               'assets/img/logo.png'
-background:         'https://ofjynnbi3.bkt.clouddn.com/background.jpg'
+background:         'http://ofjynnbi3.bkt.clouddn.com/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 #url:                http://localhost:4000
