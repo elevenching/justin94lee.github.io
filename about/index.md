@@ -3,7 +3,7 @@ layout: page
 title: About
 tags: [about]
 date: 2016-07-03
-feature: http://ofjynnbi3.bkt.clouddn.com/aboutme.jpg 
+feature: https://ofjynnbi3.bkt.clouddn.com/aboutme.jpg 
 comments: false
 ---
 
@@ -11,7 +11,7 @@ comments: false
 
 Bachelor of Economics
 
-Learning Python
+Learning Something 
 
 Live Alone And Prosper
 
